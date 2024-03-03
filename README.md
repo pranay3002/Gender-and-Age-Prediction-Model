@@ -1,16 +1,11 @@
-UTKFace dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. This dataset could be used on a variety of tasks, e.g., face detection, age estimation, age progression/regression, landmark localization, etc.
+With a range of 0 to 116 years old, the UTKFace dataset is a large-scale face dataset. More than 20,000 face photos with age, gender, and ethnicity annotations make up the dataset. There is a lot of difference in the photos' poses, facial expressions, lighting, occlusion, quality, etc. Numerous tasks, such as face detection, age estimate, age progression/regression, landmark localization, etc., could be accomplished with this dataset.
 
-The objective of the project is to detect gender and age using facial images. Convolutional Neural Network is used to classify the images. There are 2 output types namely, gender(M or F) and age.
+The project's goal is to use face image analysis to detect age and gender. To classify the photos, a convolutional neural network is employed. There are two sorts of output: age and gender (M or F).
 
-Environment: kaggle
+Setting: Kaggle
 
 Libraries:-
-pandas
-numpy
-matplotlib
-keras
-tensorflow
-scikit-learn
+Pandas, Numpy, Matplotlib, Keras, TensorFlow, Scikit-Learn 
 
 Neural Network:-
 CNN Network
